@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("https://i.pinimg.com/originals/3f/74/e6/3f74e69b00a2ce56df4d4d04096de395.jpg");
+    color: #F0EDCF;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    75% {opacity: 0.65;}
+    100% { opacity: 1; }
+  }
+
+.stories {
+    margin: 50px 10%;
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 1/1/2/2;
+}
+
+.story-img {
+    width: 550px;
+    height: 450px;
+}
+
+.story-img > img {
+    width: 539px;
+    height: 360px;
+    position: relative;
+    z-index: -1;
+}
+
+.story-img > a > h1:hover  {
+    color: red;
+}
+
+.specific-story {
+    background: url('https://i.ytimg.com/vi/2NPt3HDPSCE/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBBffRlciVrOIwY4oM3kk9S-nZrxA');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.story-img > a > h1 {
+    max-width: 539px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    color: #97FEED;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.story-content {
+    animation: fadeIn 4s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    width: 80%;
+    margin: 0 10%;
+}
+
+h1[name="story-title"] {
+    color: #97FEED;
+}
+
+h1[name="right-one"] {
+    max-width: 539px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 8%;
+    text-align: center;
+}
+
+a > h1[name="tunnel"] {
+    margin-left:7%;
+    margin-bottom: 3%;
+}
+
+
+.title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: #F0EDCF;
+}
+
+
+
