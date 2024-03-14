@@ -36,6 +36,8 @@ body {
     z-index: -1;
 }
 
+
+
 .story-img > a > h1:hover  {
     color: red;
 }
@@ -68,6 +70,10 @@ body {
 
 h1[name="story-title"] {
     color: #97FEED;
+}
+
+h1[name="story-title"]:hover {
+    color: blue;
 }
 
 h1[name="right-one"] {
